@@ -17,6 +17,9 @@
 # Recordings can get excessive in size
 /[Rr]ecordings/
 
+# Asset meta data should only be ignored when the corresponding asset is also ignored
+!/[Aa]ssets/**/*.meta
+
 # Uncomment this line if you wish to ignore the asset store tools plugin
 # /[Aa]ssets/AssetStoreTools*
 
@@ -70,3 +73,28 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# CUSTOM
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+
+/Project A/[Ll]ibrary/
+/Project A/[Tt]emp/
+/Project A/[Oo]bj/
+/Project A/[Bb]uild/
+/Project A/[Bb]uilds/
+/Project A/[Ll]ogs/
+/Project A/[Mm]emoryCaptures/
+
+/Project A/UserSettings/EditorUserSettings.asset
+Project A/UserSettings/EditorUserSettings.asset
+UserSettings/EditorUserSettings.asset
+EditorUserSettings.asset
+
+.vscode
+.vsconfig
